@@ -1,0 +1,262 @@
+body, html {
+    margin: 0px;
+    background-color: black;
+}
+
+header {
+    background-image: url("images/solarsys.jpg");
+    width: 100vw;
+    height: 100px;
+    margin-top: 0px;
+    background-size: cover;
+}
+
+header, h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+}
+
+nav {
+    background-color:black;
+    font-size: 17px;
+    padding: 10px;
+    left:10px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#a1,#a2,#a3 {
+    justify-content: space-around;
+    flex: 2 1 ;
+    display: inline-block;
+    text-align: center;
+    padding: inherit;
+}
+
+vr {
+    background-color: gainsboro;
+    width: 1px;
+}
+
+article {   
+    background: rgba(255,255,255,0.9);
+    font-size: 15px;
+    margin-bottom: 5px;
+    background-size: cover;
+    width: 70vw;
+    margin-right: 5px;
+}
+
+#art1 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article h3 {
+    font-family: sans-serif;
+    color:dimgrey;
+    font-weight: 100;
+    display: inline-block;
+    padding: 2%;
+    margin: 0px;
+    width:96%;
+    background-color:white;
+}
+
+#par1 {
+    flex:1 1 ;
+}
+
+article figure {
+    flex: 1 1 ;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+    color: dimgray;
+}
+
+h4 {
+    font-weight: 100;
+}
+
+article p {
+    color: dimgrey;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 10px;
+}
+
+#listaplanetas {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 70px;
+}
+
+ol {
+    list-style-type: bullet;
+    padding-bottom: 10px;
+    color: dimgray;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+ol li {
+    padding-bottom: 5px;
+}
+
+#div1 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sect2 {
+    flex: 1 1 1;
+    margin: 5px;
+}
+
+#sect3 {
+    flex: 1 1 1;
+    margin: 5px;
+}
+
+#escala {
+    margin-left: 5px;
+}
+footer {
+    color: azure;
+    margin: 4px;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+p a {
+    color: darkblue;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#artexp {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+#exploracion {
+    flex: 1;
+}
+
+#satelite {
+    margin: 10px;
+}
+
+
+aside ul {
+    color:dimgray;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: -15px;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+}
+
+aside {
+    background-color:darkgrey;
+    margin-bottom: 5px;
+    width: 30vw;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-right: 0px;
+}
+
+aside p {
+    color:dimgray;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+aside h3 {
+    color: dimgray;
+    font-weight: 100;
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 5%;
+    width: 90%;
+    margin: 0px;
+    font-size: 0.99rem;
+}
+
+aside div {
+    overflow: visible;
+}
+
+aside table, th, td {
+    border-collapse: collapse;
+    border: 1px solid darkgrey;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: dimgray;
+    font-size: 0.9rem;
+    width: 100%;
+    }
+
+table tr:hover {background-color: cornflowerblue;}
+tr:nth-child(even) {background-color: #BDBDBD}
+tr:nth-child(odd) {background-color: #D8D8D8}
+
+table th {
+    background-color: grey;
+    color: aliceblue
+}
+
+video {
+    margin: 10px;
+}
+
+h6 {
+    font-weight: 100;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+
+#quote {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    text-align: center;
+    width: 10vw;
+    margin: 5px;
+    background-image: url("Images/space.jpg");
+    background-size: contain;
+}
+
+.fc1 {
+    display: flex;
+    flex-flow: row;
+}
+
+.aside {
+    flex:1 1;
+    margin-right: 0px;
+    }
+
+.main {
+    flex:1 1;
+}
